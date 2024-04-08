@@ -31,3 +31,32 @@ const hobbie2 = 'leer'
 const hobbie3 = 'estudiar'
 const hobbie = 'Mis hobbies son: '.concat(hobbie1,', ', hobbie2,', ', hobbie3)
 console.log(hobbie)
+
+//Caracteres de escape
+
+//1. Escape Alternaativo
+const escapeAlternativo="I'm Software Engineer"
+
+//2. Barra invertica
+const escapeBarraInvertida='I\'m Software Engineer'
+
+//3. Template literals
+const escapeComillaInvertida=`I'm Software Engineer`
+
+//Escritura de string largos
+const poema='Las rosas son rojas,\n'+
+'Las violetas son azules,\n'+
+'Caracter inesperado,\n'+
+'En la lÃ­nea 86.'
+console.log(poema)
+
+const poema2='Las rosas son rojas,\n\
+Las violetas son azules,\n\
+Caracter inesperado,\n\
+En la lÃ­nea 86.'
+console.log(poema2)
+const poema3=`Las rosas son rojas,
+Las violetas son azules,
+Caracter inesperado,
+En la lÃ­nea 86.`
+console.log(poema3)
