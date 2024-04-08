@@ -1,4 +1,8 @@
-// Creacion de STRING
+// PRIMERA PARTE
+// PRIMERA PARTE
+// PRIMERA PARTE
+
+//Caracteres de escape
 const primeraOpcion = 'comillas simples'
 const segundaOpcion = "comillas dobles"
 const terceraOpcion = `comillas inversas`
@@ -32,6 +36,9 @@ const hobbie3 = 'estudiar'
 const hobbie = 'Mis hobbies son: '.concat(hobbie1,', ', hobbie2,', ', hobbie3)
 console.log(hobbie)
 
+// SEGUNDA PARTE
+// SEGUNDA PARTE
+// SEGUNDA PARTE
 //Caracteres de escape
 
 //1. Escape Alternaativo
@@ -55,6 +62,7 @@ Las violetas son azules,\n\
 Caracter inesperado,\n\
 En la lÃ­nea 86.'
 console.log(poema2)
+
 const poema3=`Las rosas son rojas,
 Las violetas son azules,
 Caracter inesperado,
